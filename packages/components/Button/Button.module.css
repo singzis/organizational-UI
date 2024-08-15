@@ -1,0 +1,5 @@
+.custom {
+  border-radius: 6px;
+  padding: 10px 20px;
+  border: 1px solid var(--custom-color);
+}
