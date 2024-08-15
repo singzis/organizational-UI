@@ -1,15 +1,15 @@
 {
-  "name": "organizational-ui",
+  "name": "@organizational-ui/docs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "@organizational-ui/components": "workspace:*"
-  },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "vitepress": "^1.3.2"
+  }
 }
