@@ -4,7 +4,7 @@
   import { onMounted, ref } from 'vue'
   import { createElement } from 'react'
   import { createRoot  } from 'react-dom/client'
-  import { Button } from '../../core'
+  import { Button } from 'organization-ui'
 
   const el = ref(null)
   onMounted(() => {

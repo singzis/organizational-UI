@@ -11,6 +11,10 @@
     "isolatedModules": true,
     "moduleDetection": "force",
     "noEmit": true,
+    "baseUrl": ".",
+    "paths": {
+      "vite-plugin-dts": ["node_modules/vite-plugin-dts"]
+    },
 
     /* Linting */
     "strict": true,

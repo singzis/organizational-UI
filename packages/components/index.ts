@@ -1,2 +1,4 @@
-export { default as Button } from './Button/Button'
-export { default as Tree } from './Tree/Tree'
+import './styles/index.ts'
+
+export * from './Button'
+export * from './Tree'

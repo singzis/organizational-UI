@@ -1,9 +1,12 @@
 {
   "name": "organizational-ui",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "组织架构UI组件",
+  "main": "index.ts",
   "scripts": {
+    "build:umd": "vite build --config vite.umd.config.ts",
+    "build:es": "vite build --config vite.es.config.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
