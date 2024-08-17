@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import className from './Button.module.css'
+import styles from './Button.module.css'
 import { ButtonProps } from './types'
 
 const Button = (props: ButtonProps) => {
@@ -11,9 +11,9 @@ const Button = (props: ButtonProps) => {
         props.onClick?.()
         setCount(count + 1)
       }}
-      className={`${className.custom}`}
+      className={styles.custom}
     >
-      Clicked {count} times
+      Clicked {count} times!!!
     </button>
   )
 }

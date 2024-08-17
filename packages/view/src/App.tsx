@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { Button, Tree } from 'organizational-ui'
 import type { ButtonProps } from 'organizational-ui'
+import 'organizational-ui/dist/es/index.css'
 
 function App() {
   const [count, setCount] = useState(0)

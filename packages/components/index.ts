@@ -1,4 +1,4 @@
-import './styles/index.ts'
+import './styles'
 
 export * from './Button'
 export * from './Tree'

@@ -1,16 +1,32 @@
 {
   "name": "organizational-ui",
   "version": "0.0.1",
-  "type": "module",
+  "type": "module",  
+  "files": [
+    "dist"
+  ],
+  "sideEffects": [
+    "./dist/index.css",
+    "./dist/theme/*.css"
+  ],
   "description": "组织架构UI组件",
-  "main": "index.ts",
+  "main": "./dist/umd/index.umd.cjs",
+  "module": "./dist/es/index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/es/index.js",
+      "require": "./dist/umd/index.umd.cjs",
+      "types": "./dist/types/core/index.d.ts"
+    },
+    "./dist/": {
+      "import": "./dist/",
+      "require": "./dist/"
+    }
+  },
   "scripts": {
     "build:umd": "vite build --config vite.umd.config.ts",
     "build:es": "vite build --config vite.es.config.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "dependencies": {
-    "@organizational-ui/components": "workspace:*"
   },
   "keywords": [],
   "author": "",

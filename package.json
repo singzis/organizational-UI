@@ -35,6 +35,7 @@
   "dependencies": {
     "@organizational-ui/docs": "workspace:*",
     "@organizational-ui/utils": "workspace:*",
+    "@organizational-ui/components": "workspace:*",
     "lodash-es": "4.17.21",
     "organizational-ui": "workspace:*",
     "react": "^18.3.1",
